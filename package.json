@@ -1,0 +1,42 @@
+{
+  "name": "mcp-doctor",
+  "version": "0.1.0",
+  "description": "See how much context window your Claude Desktop MCP servers eat — like /context, but for the chat app.",
+  "type": "module",
+  "bin": {
+    "mcp-doctor": "./bin/mcp-doctor.js",
+    "mcp-diff": "./bin/mcp-diff.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude",
+    "claude-desktop",
+    "mcp",
+    "model-context-protocol",
+    "anthropic",
+    "context-window",
+    "tokens",
+    "diagnostics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/mcp-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/mcp-doctor/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/mcp-doctor#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
