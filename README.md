@@ -13,12 +13,12 @@ $ npx @sharadongithub/mcp-doctor
 
   Server                      Tools     Tokens  % of 200k  Status
   ─────────────────────────────────────────────────────────────────
-  playwright                     21      13.6k       6.8%  ✓ ok
-  github                         26      18.4k       9.2%  ✓ ok
-  mcp-omnisearch                 20      14.1k       7.1%  ✓ ok
-  notion                         12       8.9k       4.4%  ✓ ok
-  filesystem                      4       1.3k       0.6%  ✓ ok
-  unused-internal                15      11.2k       5.6%  ⚠ never called
+  internal-deploy-tools          21      13.6k       6.8%  ✓ ok
+  company-jira-bridge            26      18.4k       9.2%  ✓ ok
+  data-warehouse-mcp             20      14.1k       7.1%  ✓ ok
+  team-wiki                      12       8.9k       4.4%  ✓ ok
+  local-fs-sandbox                4       1.3k       0.6%  ✓ ok
+  legacy-runbook-server          15      11.2k       5.6%  ⚠ never called
   ─────────────────────────────────────────────────────────────────
   Total                                  67.5k      33.7%
 ```
@@ -66,10 +66,10 @@ mcp-diff                # Friday
 
   MCP changes since 2026-04-28T09:14:22Z
 
-  + linear      new server, 12 tools, 8,400 tokens
-  ~ github      +1,200 tokens, +3 tools
-      + create_pull_request_review, list_workflow_runs, get_workflow_run
-  - playwright  removed (was 21 tools, 13,647 tokens)
+  + ops-paging-bridge       new server, 12 tools, 8,400 tokens
+  ~ company-jira-bridge     +1,200 tokens, +3 tools
+      + create_review, list_pipeline_runs, get_pipeline_run
+  - legacy-runbook-server   removed (was 21 tools, 13,647 tokens)
 
   Total context delta: -3,847 tokens  (was 67,512, now 63,665)
 ```
