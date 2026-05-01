@@ -7,7 +7,7 @@ Claude Code has `/context`. Claude Desktop doesn't. If you have more than two or
 This is that way.
 
 ```
-$ npx mcp-doctor
+$ npx @sharadongithub/mcp-doctor
 
   MCP context cost  (Claude Desktop, local mode)
 
@@ -28,7 +28,7 @@ That's a third of your context window, gone, before "hello".
 ## Install
 
 ```bash
-npx mcp-doctor          # nothing to install, just runs
+npx @sharadongithub/mcp-doctor          # nothing to install, just runs
 ```
 
 Or globally:

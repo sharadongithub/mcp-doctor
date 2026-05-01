@@ -1,5 +1,5 @@
 {
-  "name": "mcp-doctor",
+  "name": "@sharadongithub/mcp-doctor",
   "version": "0.1.0",
   "description": "See how much context window your Claude Desktop MCP servers eat — like /context, but for the chat app.",
   "type": "module",
